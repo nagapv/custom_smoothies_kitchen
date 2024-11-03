@@ -9,7 +9,7 @@ session = cnx.session()
 # Below line is for Streamlit in Snowflake.
 # session = get_active_session()
 
- Write directly to the app
+# Write directly to the app
 st.markdown("<h1 style='text-align: center; color: red;'>🥤🥤🥤</h1>", unsafe_allow_html=True)
 st.title("Pending Smoothie Orders!")
 st.write(
